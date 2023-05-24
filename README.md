@@ -9,11 +9,13 @@ Desafio para Back-end Developer na DoroTech - C# .NET
 
 --- COLLATE aplicada ao script: utf8mb4_general_ci ---
 
-# Método para utilização da api localmente:
+# Passos para a utilização da api localmente:
 
 1- Para utilizar esta api localmente é preciso importar o script do banco de dados em seu SGBD (MySql WorkBench).
 
 2- Após importar o script, é necessário atualizar os seus dados locais de forma correspondente no arquivo appsettings.json encontrado na pasta Livraria, por exemplo (User, Pwd e outras configurações que variam de ambiente para ambiente). 
+
+3- Depois de todas as configurações feitas, vá ao código fonte no visual studio e rode o programa.
 
 # Contexto da aplicação:
 
