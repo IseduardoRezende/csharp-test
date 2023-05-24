@@ -2,7 +2,7 @@
 Desafio para Back-end Developer na DoroTech - C# .NET
 
 Versão .NET utilizada: 7.0 |
-OBS: Para utilizar esta api localmente é preciso importar o script do banco de dados em seu SGBD.
+OBS: Para utilizar esta api localmente é preciso importar o script do banco de dados em seu SGBD (MySql).
 
 Contexto:
 
