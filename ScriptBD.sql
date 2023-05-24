@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `livrariadoro`;
+CREATE DATABASE  IF NOT EXISTS `livrariadoro` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `livrariadoro`;
 -- MySQL dump 10.13  Distrib 8.0.30, for Win64 (x86_64)
 --
@@ -23,7 +23,7 @@ USE `livrariadoro`;
 
 DROP TABLE IF EXISTS `__efmigrationshistory`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `__efmigrationshistory` (
   `MigrationId` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `ProductVersion` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -47,7 +47,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `livraria`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `livraria` (
   `IdLivro` int NOT NULL AUTO_INCREMENT,
   `TituloLivro` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -74,13 +74,13 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `usuario`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usuario` (
   `IdADM` int NOT NULL AUTO_INCREMENT,
   `Nome` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `Senha` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`IdADM`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -102,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-23 20:20:39
+-- Dump completed on 2023-05-24 18:20:23
