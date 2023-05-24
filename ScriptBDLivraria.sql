@@ -23,7 +23,7 @@ USE `livrariadoro`;
 
 DROP TABLE IF EXISTS `__efmigrationshistory`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-SET character_set_client = utf8mb4;
+
 CREATE TABLE `__efmigrationshistory` (
   `MigrationId` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `ProductVersion` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -47,7 +47,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `livraria`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-SET character_set_client = utf8mb4;
+
 CREATE TABLE `livraria` (
   `IdLivro` int NOT NULL AUTO_INCREMENT,
   `TituloLivro` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -74,7 +74,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `usuario`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-SET character_set_client = utf8mb4;
+
 CREATE TABLE `usuario` (
   `IdADM` int NOT NULL AUTO_INCREMENT,
   `Nome` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
